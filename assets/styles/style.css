@@ -85,3 +85,32 @@ padding-top: 395px;
 	position: absolute;
 	content: attr(data-color);
 }
+.text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size:28px;
+	line-height: 50px;
+	color: #FFFFFF
+}
+
+.section-others {
+	background: #151923;
+	clip-path: polygon(0 3%,100% 0, 100% 100%,0% 100%);
+}
+
+.info {
+	display: grid;
+	grid-template-columns: 425px 765px;
+	justify-content: space-between;
+}
+.info__content-text {
+	position: sticky;
+	top: 40px;
+}
+.info__image {
+	margin-bottom: 50px;
+}
+.info__image:last-child {
+	margin-bottom: 0;
+}
